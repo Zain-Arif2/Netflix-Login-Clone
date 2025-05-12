@@ -1,0 +1,151 @@
+.main-form {
+  backdrop-filter: brightness(0.2);
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 30px 64px 60px;
+  margin: 100px auto;
+  max-width: 400px;
+  border-radius: 8px;
+  color: white;
+  font-family: system-ui, sans-serif;
+}
+
+.main-form h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.inputbox {
+  margin-bottom: 16px;
+}
+
+.inputbox input {
+  width: 100%;
+  padding: 18px 15px;
+  background: transparent;
+  outline: none;
+  border: 1px solid gray;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.85);
+  border-radius: 5px;
+}
+
+.btn-sign button,
+.btn button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-sign button {
+  background: rgb(229, 9, 20);
+  color: white;
+  margin-top: 16px;
+}
+
+.btn-sign button:hover {
+  background: rgb(182, 9, 18);
+}
+
+.btn button {
+  background: rgba(128, 128, 128, 0.4);
+  color: white;
+  margin-top: 10px;
+}
+
+.btn button:hover {
+  background: rgba(101, 101, 101, 0.4);
+}
+
+.heading h2 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.forget {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.forget a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.forget a:hover {
+  text-decoration: underline;
+  color: rgb(158, 158, 158);
+}
+
+.checkbox {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.checkbox input {
+  margin-right: 8px;
+}
+
+.sign {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#gray {
+  color: white;
+  cursor: pointer;
+}
+
+#gray:hover {
+  text-decoration: underline;
+}
+
+.captcha {
+  margin-top: 15px;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.captcha a {
+  color: #0071eb;
+  text-decoration: none;
+  font-size: 0.8125rem;
+}
+
+.captcha a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+  .main-form {
+    padding: 24px 16px;
+    margin: 60px 16px;
+  }
+
+  .main-form h1 {
+    font-size: 1.75rem;
+  }
+
+  .btn-sign button,
+  .btn button {
+    padding: 12px;
+  }
+
+  .captcha {
+    text-align: center;
+  }
+
+  .sign h2 {
+    font-size: 0.85rem;
+    text-align: center;
+  }
+}
