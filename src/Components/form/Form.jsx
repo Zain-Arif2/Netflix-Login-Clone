@@ -37,19 +37,19 @@ function Form() {
       </div>
 
       <div className="sign">
-        <h2>
+        <h3>
           New to Netflix? <span id="gray">Sign up now</span>
-        </h2>
+        </h3>
       </div>
 
       <div className="captcha">
-        <h3>
+        <h4>
           This page is protected by Google reCAPTCHA to <br />
           ensure you're not a bot. <a href="#">Learn more</a>
-        </h3>
+        </h4>
       </div>
     </div>
   );
 }
 
-export default Form;
+export default Form; 

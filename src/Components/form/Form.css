@@ -1,9 +1,9 @@
 .main-form {
   backdrop-filter: brightness(0.2);
-  background-color: rgba(0, 0, 0, 0.75);
   padding: 30px 64px 60px;
   margin: 100px auto;
-  max-width: 400px;
+  width: 100%;
+  max-width: 450px;
   border-radius: 8px;
   color: white;
   font-family: system-ui, sans-serif;
@@ -13,7 +13,6 @@
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 25px;
-  text-align: center;
 }
 
 .inputbox {
